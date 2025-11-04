@@ -65,3 +65,4 @@ Time Travel Debugging tools and platforms.
 - [Binary Ninja - DbgEng TTD Adapter](https://github.com/Vector35/debugger/blob/dev/core/adapters/dbgengttdadapter.cpp) - Source code for Binary Ninja's TTD adapter implementation, showing how Binary Ninja integrates with WinDbg's TTD engine.
 - [ttd-bindings](https://github.com/commial/ttd-bindings) - Python bindings for Microsoft's Time Travel Debugging (TTD) engine, enabling programmatic access to TTD traces and analysis capabilities.
 - [ttddbg](https://github.com/airbus-cert/ttddbg) - Python library for working with WinDbg TTD traces, providing tools for trace analysis, querying, and automation of TTD workflows.
+- [WinDbg-Libraries](https://github.com/microsoft/WinDbg-Libraries) - Microsoft's official libraries for extending WinDbg and its underlying components, providing a modern C++ abstraction layer over the Debugger Data Model COM APIs to simplify extension development.
