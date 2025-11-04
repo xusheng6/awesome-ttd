@@ -71,7 +71,7 @@ A collection of Time Travel Debugging tools and platforms, both commercial and o
 - [Introduction to Working with Time Travel Debugging in Binary Ninja](https://www.youtube.com/watch?v=qNfCbuzdH6U) - Getting started video covering the basics of TTD in Binary Ninja, including installation and first steps.
 - [Hands-on Time Travel Debugging Tutorial](https://www.youtube.com/watch?v=2v7DRyXb8_c) - Practical demonstration of TTD features and workflows for debugging complex applications.
 - [Advanced Time Travel Debugging Techniques](https://www.youtube.com/watch?v=-eVyYB83hH0) - Advanced techniques and tips for effective use of TTD in reverse engineering.
-- [TTD Walkthrough and Best Practices](https://www.youtube.com/watch?v=0PBV1ZFralk) - Comprehensive walkthrough of TTD capabilities and recommended approaches for various debugging scenarios.
+- [TTD Walkthrough and Best Practices](https://www.youtube.com/watch?v=0PBV1ZFralk) - Comprehensive walkthrough of TTD capabilities and recommended approaches for various debugging scenarios, demonstrating analysis of the 7th challenge in Flare-On 2025.
 - [Time Travel Debugging: Root Causing Bugs in Commercial Scale Software](https://www.youtube.com/watch?v=cwsVSTVBe0g) - Discussion of using TTD for debugging large-scale commercial software applications and finding root causes of complex bugs.
 - [Time Travel Debugging - An Introduction](https://www.youtube.com/watch?v=HcyCZPNO3qI) - Introductory video covering the fundamentals of time travel debugging and its benefits for software development.
 - [Reverse Engineering with Time Travel Debugging](https://www.youtube.com/watch?v=5GeO92F-wfY) - Demonstration of TTD techniques for reverse engineering applications and analyzing program behavior.
