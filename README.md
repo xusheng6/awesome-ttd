@@ -31,6 +31,7 @@ Time Travel Debugging tools and platforms.
 - [Microsoft - Time Travel Debugging Object Model](https://learn.microsoft.com/en-us/windows-hardware/drivers/debuggercmds/time-travel-debugging-object-model) - Documentation on the TTD data model, including process objects, session objects, and LINQ-style queries for analyzing traces.
 - [Microsoft - Time Travel Debugging Release Notes](https://learn.microsoft.com/en-us/windows-hardware/drivers/debuggercmds/time-travel-debugging-release-notes) - Release notes tracking TTD features, improvements, and known issues across WinDbg versions.
 - [Binary Ninja - Time Travel Debugging (Windows)](https://docs.binary.ninja/guide/debugger/dbgeng-ttd.html) - Guide for using TTD with Binary Ninja on Windows through WinDbg/DbgEng integration.
+- [Binary Ninja - Time Travel Debugging Dev Build Documentation](https://dev-docs.binary.ninja/guide/debugger/dbgeng-ttd.html) - Latest TTD documentation for Binary Ninja dev builds, featuring the most recent updates and features.
 - [Binary Ninja - Time Travel Debugging (Linux)](https://docs.binary.ninja/guide/debugger/gdbrsp-ttd.html) - Documentation for TTD support on Linux using the rr debugger with Binary Ninja.
 - [IDA Pro - WinDbg TTD Debugging](https://docs.hex-rays.com/user-guide/debugger/local-debugging/windbg-ttd) - Documentation for using WinDbg Time Travel Debugging with IDA Pro for reverse engineering and malware analysis.
 
