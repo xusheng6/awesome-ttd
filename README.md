@@ -13,42 +13,17 @@ A curated list of resources related to Time Travel Debugging (TTD).
 
 ## TTD Solutions
 
-A collection of Time Travel Debugging tools and platforms, both commercial and open-source.
+Time Travel Debugging tools and platforms.
 
-### WinDbg TTD
-- **Link**: [Microsoft WinDbg Preview](https://learn.microsoft.com/en-us/windows-hardware/drivers/debuggercmds/time-travel-debugging-overview)
-- **Pricing**: Free
-- **Description**: Microsoft's official Time Travel Debugging solution integrated into WinDbg Preview. Allows recording and replaying of Windows application execution for debugging complex issues. Features include reverse execution, memory and register queries at any point in time, and integration with the Windows debugging ecosystem.
-
-### rr
-- **Link**: [rr Project](https://rr-project.org/)
-- **Pricing**: Free and Open Source
-- **Description**: A lightweight recording and deterministic debugging tool for Linux. Developed by Mozilla, rr records native application execution and allows full reverse execution during replay. It's designed to be efficient with low overhead and integrates well with GDB for a familiar debugging experience.
-
-### undo.io
-- **Link**: [Undo](https://undo.io/)
-- **Pricing**: Commercial (Contact for pricing)
-- **Description**: Enterprise-grade reversible debugging platform for Linux and embedded systems. Built on the technology behind UDB (Undo Debugger), it provides time travel debugging capabilities for production systems, continuous integration, and development environments. Supports both live debugging and recording for later analysis.
-
-### esReven
-- **Link**: [esReven](https://www.codeproject.com/Articles/5365310/esReven-Reverse-Debugger)
-- **Pricing**: Free
-- **Description**: A reverse debugger for Windows that provides time travel debugging capabilities. Allows stepping backwards through program execution, setting reverse breakpoints, and analyzing program behavior in reverse. Designed for Windows applications with a focus on ease of use and minimal overhead.
-
-### Panda-re
-- **Link**: [PANDA - Platform for Architecture-Neutral Dynamic Analysis](https://github.com/panda-re/panda)
-- **Pricing**: Free and Open Source
-- **Description**: A platform for architecture-neutral dynamic analysis based on QEMU. PANDA enables whole-system recording and deterministic replay for various architectures. It's particularly useful for malware analysis, reverse engineering, and security research, offering extensive plugin support for custom analyses.
-
-### GDB
-- **Link**: [GDB Reverse Debugging](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Reverse-Execution.html)
-- **Pricing**: Free and Open Source
-- **Description**: The GNU Debugger includes built-in reverse debugging capabilities. While not a full time travel debugging solution, GDB supports reverse execution through process recording, allowing reverse-continue, reverse-step, and reverse-next operations. Works with various targets and can be used with rr for enhanced TTD functionality.
-
-### REnigma
-- **Link**: [DTR Security REnigma](https://dtrsec.com/)
-- **Pricing**: Commercial (Contact for pricing)
-- **Description**: Advanced time travel debugging and reverse engineering platform. Provides comprehensive recording and analysis capabilities for security research, malware analysis, and vulnerability discovery. Features include full system state capture, advanced query capabilities, and integration with reverse engineering workflows.
+| Solution | Pricing | Description |
+|----------|---------|-------------|
+| [WinDbg TTD](https://learn.microsoft.com/en-us/windows-hardware/drivers/debuggercmds/time-travel-debugging-overview) | Free | Microsoft's official Time Travel Debugging solution integrated into WinDbg Preview. Allows recording and replaying of Windows application execution for debugging complex issues. Features include reverse execution, memory and register queries at any point in time, and integration with the Windows debugging ecosystem. |
+| [rr](https://rr-project.org/) | Free and Open Source | A lightweight recording and deterministic debugging tool for Linux. Developed by Mozilla, rr records native application execution and allows full reverse execution during replay. It's designed to be efficient with low overhead and integrates well with GDB for a familiar debugging experience. |
+| [undo.io](https://undo.io/) | Commercial | Enterprise-grade reversible debugging platform for Linux and embedded systems. Built on the technology behind UDB (Undo Debugger), it provides time travel debugging capabilities for production systems, continuous integration, and development environments. Supports both live debugging and recording for later analysis. |
+| [esReverse](https://eshard.com/esreverse) | Commercial | A reverse debugger for Windows that provides time travel debugging capabilities. Allows stepping backwards through program execution, setting reverse breakpoints, and analyzing program behavior in reverse. Designed for Windows applications with a focus on ease of use and minimal overhead. |
+| [Panda-re](https://github.com/panda-re/panda) | Free and Open Source | A platform for architecture-neutral dynamic analysis based on QEMU. PANDA enables whole-system recording and deterministic replay for various architectures. It's particularly useful for malware analysis, reverse engineering, and security research, offering extensive plugin support for custom analyses. |
+| [GDB Reverse Debugging](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Reverse-Execution.html) | Free and Open Source | The GNU Debugger includes built-in reverse debugging capabilities. While not a full time travel debugging solution, GDB supports reverse execution through process recording, allowing reverse-continue, reverse-step, and reverse-next operations. Works with various targets and can be used with rr for enhanced TTD functionality. |
+| [REnigma](https://dtrsec.com/) | Commercial | Advanced time travel debugging and reverse engineering platform. Provides comprehensive recording and analysis capabilities for security research, malware analysis, and vulnerability discovery. Features include full system state capture, advanced query capabilities, and integration with reverse engineering workflows. |
 
 ## Official Documentation
 
