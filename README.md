@@ -41,6 +41,8 @@ Time Travel Debugging tools and platforms.
 - [Next-Level Reversing: Binary Ninja+TTD](https://seeinglogic.com/posts/binary-ninja-ttd-intro/) - Hands-on tutorial demonstrating how to use TTD with Binary Ninja for reverse engineering, including setup, trace recording, and analysis workflows.
 - [LRQA - Time Travel Debugging Shellcode with Binary Ninja](https://www.lrqa.com/en/cyber-labs/time-travel-debugging-shellcode-with-binary-ninja/) - Tutorial on using TTD to debug shellcode and non-PE targets with Binary Ninja, useful for malware analysis and vulnerability research.
 - [Microsoft WinDbg-Samples TTD README](https://github.com/microsoft/WinDbg-Samples/blob/master/TTD/README.md) - Official Microsoft repository with TTD samples and example scripts for common debugging scenarios.
+- [Google Cloud - Time Travel Triage: TTD using .NET Process Hollowing](https://cloud.google.com/blog/topics/threat-intelligence/time-travel-debugging-using-net-process-hollowing) - In-depth tutorial on using Time Travel Debugging with WinDbg to analyze advanced malware behaviors, specifically focusing on .NET process hollowing techniques commonly used by threat actors.
+- [TTD Lab](https://github.com/xusheng6/TTD_lab) - Educational repository containing presentation slides and hands-on lab instructions for learning Time Travel Debugging, designed to help beginners get familiar with TTD concepts and practical usage.
 
 ## Videos
 
