@@ -44,6 +44,9 @@ Time Travel Debugging tools and platforms.
 - [Microsoft WinDbg-Samples TTD README](https://github.com/microsoft/WinDbg-Samples/blob/master/TTD/README.md) - Official Microsoft repository with TTD samples and example scripts for common debugging scenarios.
 - [Google Cloud - Time Travel Triage: TTD using .NET Process Hollowing](https://cloud.google.com/blog/topics/threat-intelligence/time-travel-debugging-using-net-process-hollowing) - In-depth tutorial on using Time Travel Debugging with WinDbg to analyze advanced malware behaviors, specifically focusing on .NET process hollowing techniques commonly used by threat actors.
 - [TTD Lab](https://github.com/xusheng6/TTD_lab) - Educational repository containing presentation slides and hands-on lab instructions for learning Time Travel Debugging, designed to help beginners get familiar with TTD concepts and practical usage.
+- [Mandiant FLARE - An Introduction to Time Travel Debugging](https://github.com/mandiant/flare-learning-hub?tab=readme-ov-file#an-introduction-to-time-travel-debugging) - Free educational module from Mandiant's FLARE team (Josh Stroschein and Jae Young Kim) covering TTD fundamentals for malware analysis, with hands-on demonstrations, lab exercises, and JavaScript reference material for automating TTD tasks.
+- [Advanced Malware Binary Triage (Binary Ninja Edition)](https://training.invokere.com/course/ambtbn) - Training course by Joshua Reynolds (Invoke RE) on reverse engineering real-world malware with Binary Ninja, covering anti-analysis techniques and the use of Time Travel Debugging while analyzing loaders, ransomware, kernel drivers, and red team tools.
+- [JLORAT Malware Analysis Write-up](https://codeberg.org/nubbie/research/src/branch/main/Writeups/Malware/JLORAT.pdf) - Write-up walking through the analysis of JLORAT, a Rust-based remote access trojan, demonstrating how Time Travel Debugging aids in understanding the malware's execution, persistence, and command-and-control behavior.
 
 ## Videos
 
@@ -56,6 +59,7 @@ Time Travel Debugging tools and platforms.
 - [Reverse Engineering with Time Travel Debugging](https://www.youtube.com/watch?v=5GeO92F-wfY) - Demonstration of TTD techniques for reverse engineering applications and analyzing program behavior.
 - [Debugging with Time Travel in WinDbg](https://www.youtube.com/watch?v=wpEoCC_FhUw) - Practical guide to using time travel debugging features in WinDbg for Windows application debugging.
 - [Advanced TTD Workflows and Automation](https://www.youtube.com/watch?v=7WIPUzHg2-k) - Advanced workflows and automation techniques for time travel debugging in production environments.
+- [Defrag Tools #185 - Time Travel Debugging - Introduction](https://learn.microsoft.com/en-us/shows/defrag-tools/185-time-travel-debugging-introduction) - Microsoft's Defrag Tools podcast episode where Chad Beeder is joined by James Pinkerton and Ivette Carreras to introduce TTD in WinDbg Preview, covering tracing, debugging forwards and backwards, and data availability.
 
 ## CTF Write-ups
 
@@ -71,3 +75,4 @@ Time Travel Debugging tools and platforms.
 - [ttddbg](https://github.com/airbus-cert/ttddbg) - IDA plugin that adds Time Travel Debugging support to IDA Pro, enabling loading and replaying of WinDbg TTD traces directly within the IDA debugger interface.
 - [WinDbg-Libraries](https://github.com/microsoft/WinDbg-Libraries) - Microsoft's official libraries for extending WinDbg and its underlying components, providing a modern C++ abstraction layer over the Debugger Data Model COM APIs to simplify extension development.
 - [WindbgTTD-TrackReg](https://github.com/CoolGuy-0000/WindbgTTD-TrackReg) - WinDbg extension that leverages the TTD API to trace the origins of specific registers and memory, enabling analysis of which instructions modified particular registers or memory locations during replay.
+- [ttd-capa](https://github.com/HullaBrian/ttd-capa) - Capability extraction tool that analyzes Time Travel Debugging traces to surface malware capabilities hidden in packed executables, complementing the CAPA framework by logging API calls and parameters across an entire execution that static analysis alone would miss.
